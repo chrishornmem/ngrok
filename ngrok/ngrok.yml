@@ -1,0 +1,20 @@
+web_addr: 0.0.0.0:4040
+region: eu
+log: stdout
+authtoken: 5yETj36WjesKUB92PiqFW_5MPhPEdGJeRxE7HbeBGPX
+tunnels:
+  auth:
+    proto: http
+    addr: 3040
+    subdomain: onem-poc-authenticator
+    bind_tls: true
+  bot:
+    proto: http
+    addr: 8000
+    subdomain: onem-poc-bot
+    bind_tls: true
+  portal:
+    proto: http
+    addr: 3030
+    subdomain: onem-poc-portal
+    bind_tls: true

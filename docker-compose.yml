@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+
+  ngrok:
+    build:
+      context: ./ngrok
+      dockerfile: ./Dockerfile
+
+  # documents:
+  #   build:
+  #     context: ./documents
+  #     dockerfile: ./Dockerfile
